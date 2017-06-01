@@ -7,7 +7,7 @@ import static org.hamcrest.Matchers.equalTo;
 import java.util.Arrays;
 
 import org.apache.http.HttpStatus;
-import org.junit.Test;
+import org.testng.annotations.Test;
 
 
 public class BookTests

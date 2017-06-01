@@ -36,13 +36,6 @@
 		</dependency>
 
 		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit-dep</artifactId>
-			<version>4.11</version>
-			<scope>test</scope>
-		</dependency>
-
-		<dependency>
 			<groupId>info.cukes</groupId>
 			<artifactId>cucumber-java8</artifactId>
 			<version>1.2.4</version>
@@ -51,8 +44,8 @@
 
 		<dependency>
 			<groupId>info.cukes</groupId>
-			<artifactId>cucumber-junit</artifactId>
-			<version>1.2.3</version>
+			<artifactId>cucumber-testng</artifactId>
+			<version>1.2.5</version>
 			<scope>test</scope>
 		</dependency>
 
@@ -62,6 +55,10 @@
 			<version>1.2.4</version>
 			<scope>test</scope>
 		</dependency>
-
+		<dependency>
+			<groupId>com.github.mkolisnyk</groupId>
+			<artifactId>cucumber-runner</artifactId>
+			<version>1.0.8</version>
+		</dependency>
 	</dependencies>
 </project>
