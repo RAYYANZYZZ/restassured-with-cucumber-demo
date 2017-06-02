@@ -60,5 +60,17 @@
 			<artifactId>cucumber-runner</artifactId>
 			<version>1.0.8</version>
 		</dependency>
+		<dependency>
+			<groupId>br.eti.kinoshita</groupId>
+			<artifactId>testlink-java-api</artifactId>
+			<version>1.9.16-1</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.eclipse.hudson</groupId>
+			<artifactId>hudson-core</artifactId>
+			<version>3.2.0</version>
+			<scope>test</scope>
+		</dependency>
 	</dependencies>
 </project>
